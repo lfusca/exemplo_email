@@ -1,22 +1,12 @@
-research_task:
+preparar_email:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is 2024.
+    Ler o email ou sequencia de emails e preparar o email para ser respondido.
   expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
+    Um email objetivo em resposta a: {topic}
 
-reporting_task:
+revisar_email:
   description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    Revisar o email e verificar se o contexto esta bom e nao existem informacoes que possam comprometer a empresa.
   expected_output: >
-    A fully fledge reports with the mains topics, each with a full section of information.
-    Formated as markdown with out '```'
+    Um arquivo de texto '```'
 
-translate_task:
-  description: >
-    Translate the information to Brazil Portuguese
-  expected_output: >
-    A fully translated report in Brazil Portuguese
-    Formated as markdown with out '```'
